@@ -1,0 +1,78 @@
+---
+label: Homepage
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: page_sections
+  label: Page sections
+  type: field_group_list
+  fields:
+  - name: template
+    label: Template
+    type: text
+    hidden: false
+    default: ''
+  - name: block
+    label: Block
+    type: text
+    hidden: false
+    default: ''
+  - name: logo
+    label: Logo
+    type: text
+    hidden: false
+    default: ''
+  - name: navigation
+    label: Navigation
+    type: field_group_list
+    fields:
+    - name: link_url
+      label: Link url
+      type: text
+      hidden: false
+      default: ''
+    - name: link_text
+      label: Link text
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: cta
+    label: Cta
+    type: field_group
+    fields:
+    - name: link_url
+      label: Link url
+      type: text
+      hidden: false
+      default: ''
+    - name: link_text
+      label: Link text
+      type: text
+      hidden: false
+      default: ''
+    - name: open_in_new_tab
+      label: Open in new tab
+      type: boolean
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
